@@ -43,19 +43,6 @@ sensitive data separate from configuration files.
 
   LibreBooking will automatically load and use these values.
 
-**Docker Integration**
-  Environment variables work seamlessly with Docker:
-
-  .. code-block:: yaml
-
-     # docker-compose.yml
-     services:
-       librebooking:
-         environment:
-           - LB_APP_TITLE=Company Booking System
-           - LB_DATABASE_HOSTSPEC=mysql
-           - LB_ADMIN_EMAIL=admin@company.com
-
 **Complete Example**
   See ``develop/app/.env.example`` for a comprehensive list of all available
   environment variables with their default values and descriptions.

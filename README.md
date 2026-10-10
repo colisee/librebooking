@@ -140,13 +140,7 @@ For full setup instructions, see
 
 ### Docker Deployment
 
-LibreBooking is available as a Docker container. See [LibreBooking Docker README](https://github.com/LibreBooking/docker) for complete setup.
-
-```bash
-git clone https://github.com/LibreBooking/docker.git
-cd docker
-docker-compose up -d
-```
+LibreBooking is available as a container. Please refer to the [LibreBooking Docker repository](https://github.com/LibreBooking/docker) for complete setup.
 
 ## 💻 Developer Documentation
 
